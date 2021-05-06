@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class week9 {
+public class TestSort {
     public static void main(String[] args) {
         //array with fruits
         String[] s = {"Oranges", "Apples", "Pears", "Bananas"};
@@ -8,7 +8,7 @@ public class week9 {
         //adding fruits to words arraylist
         Collections.addAll(words, s);
 
-        // this sorts the values by aplhabetical order
+        // this sorts the values by alphabetical order
         Collections.sort(words, new Comparator<String>() {
             public int compare(String s1, String s2) {
                 return s1.compareTo(s2);
